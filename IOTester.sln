@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IOTester GUI", "IOTester GUI\IOTester GUI.vbproj", "{4857FA23-435B-415A-B897-EEA78194EFF5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IOTester Library", "IOTester Library\IOTester Library.vbproj", "{6E3B2E1F-9370-4724-A9C5-D34E82DA0843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{60E98EF3-4176-4357-965E-B7582D7EBCBA}"
+	ProjectSection(SolutionItems) = preProject
+		C:\io\iotester.ini = C:\io\iotester.ini
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IOTester CLI", "IOTester CLI\IOTester CLI.vbproj", "{DBF26BE7-7EAE-40E8-AB9D-A2160EE2269F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4857FA23-435B-415A-B897-EEA78194EFF5}.Debug|x86.ActiveCfg = Debug|x86
+		{4857FA23-435B-415A-B897-EEA78194EFF5}.Debug|x86.Build.0 = Debug|x86
+		{4857FA23-435B-415A-B897-EEA78194EFF5}.Release|x86.ActiveCfg = Release|x86
+		{4857FA23-435B-415A-B897-EEA78194EFF5}.Release|x86.Build.0 = Release|x86
+		{6E3B2E1F-9370-4724-A9C5-D34E82DA0843}.Debug|x86.ActiveCfg = Debug|x86
+		{6E3B2E1F-9370-4724-A9C5-D34E82DA0843}.Debug|x86.Build.0 = Debug|x86
+		{6E3B2E1F-9370-4724-A9C5-D34E82DA0843}.Release|x86.ActiveCfg = Release|x86
+		{6E3B2E1F-9370-4724-A9C5-D34E82DA0843}.Release|x86.Build.0 = Release|x86
+		{DBF26BE7-7EAE-40E8-AB9D-A2160EE2269F}.Debug|x86.ActiveCfg = Debug|x86
+		{DBF26BE7-7EAE-40E8-AB9D-A2160EE2269F}.Debug|x86.Build.0 = Debug|x86
+		{DBF26BE7-7EAE-40E8-AB9D-A2160EE2269F}.Release|x86.ActiveCfg = Release|x86
+		{DBF26BE7-7EAE-40E8-AB9D-A2160EE2269F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
